@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.nivesh.production.mytoastlibrary.Util;
+//import com.nivesh.production.mytoastlibrary.Util;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,6 +13,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Util.Companion.msg(MainActivity.this,"Hello");
+//        Util.Companion.msg(MainActivity.this,"Hello");
     }
 }
