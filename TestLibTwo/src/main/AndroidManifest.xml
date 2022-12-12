@@ -4,7 +4,8 @@
     <application>
         <activity
             android:name=".MainActivityLib"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
